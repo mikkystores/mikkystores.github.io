@@ -4,7 +4,7 @@ require "phpmailer.php";
 
 // All mailform settings
 $to = "oladoyemichael1@gmail.com";														// To Address
-$from = "oladoyemichael1@gmail.com";													// From Address
+$from = "mikkystores1@gmail.com";													// From Address
 $fromName = "My Online Shops";											// From Name
 $fromThem = ("0" == "1" ? true : false);					// Use Sender as From Address
 $fromThemReplyTo = ("1" == "1" ? true : false);	// Use Sender as Reply-To
