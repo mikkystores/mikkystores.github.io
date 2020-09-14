@@ -8,11 +8,11 @@ $from = "mikkystores1@gmail.com";													// From Address
 $fromName = "My Online Shops";											// From Name
 $fromThem = ("0" == "1" ? true : false);					// Use Sender as From Address
 $fromThemReplyTo = ("1" == "1" ? true : false);	// Use Sender as Reply-To
-$fromNameThem = ("1" == "1" ? true : false);			// Use Sender Name as From Name
+$fromNameThem = ("0" == "1" ? true : false);			// Use Sender Name as From Name
 $fromNameThemField = "{name}";						// Name of the field(s) that can contain the Sender Name
 $template = "Hi,<br><br>You have received a new order from your website.<br><br>{formdata}<br><br>Date: {date}<br>Remote IP: {ip}<br><br>---<br>Have a nice day.";											// Mail Template
 $autorespondSubjectPrefix = "Re:";			// Autorespond Form Subject Prefix
-$autorespondSubject = "Your Order on My Online Shop";						// Autorespond Custom Subject
+$autorespondSubject = "";						// Autorespond Custom Subject
 $autorespondTemplate = "Hi {name},<br><br>Thank you for your order. You receiving this mail means that your order is currently in our mailbox and we'll contact you shortly.<br>Here's the information you sent us:<br><br>{formdata}<br><br>---<br>Have a nice day.";					// Autorespond Template
 $rcp = ("0" == "3" ? true : false);						// Use reCAPTCHA (set to "3" if enabled, "0" if disabled)
 $rcpScore = "0.5";									// reCAPTCHA Score

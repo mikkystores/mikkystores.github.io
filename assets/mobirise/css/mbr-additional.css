@@ -1426,11 +1426,11 @@ section.lazy-placeholder:after {
 .cid-rPmaX49aqi {
   padding-top: 0px;
   padding-bottom: 0px;
-  background: linear-gradient(0deg, #bf1818, #480f68);
+  background: linear-gradient(0deg, #bf1818, #bf1818);
 }
 .cid-rPmaX49aqi .mbr-iconfont-social {
   font-size: 32px;
-  color: #ff3366;
+  color: #ffffff;
 }
 .cid-rPmaX49aqi .social-list a:focus {
   text-decoration: none;
@@ -4584,26 +4584,8 @@ section.lazy-placeholder:after {
   color: #232323;
   margin-bottom: 0px;
 }
-.cid-saoimpGgr1 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
-.cid-saoimpGgr1 .mbr-section {
-  text-align: center;
-  color: #fff;
-}
 .cid-rRxu7pwayy {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #ffffff;
-}
-.cid-saol0FSdMF {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
-}
-.cid-saol0FSdMF .mbr-section {
-  text-align: center;
-  color: #fff;
 }
